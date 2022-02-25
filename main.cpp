@@ -1,11 +1,8 @@
 #include <SFML/Graphics.hpp>
-#include "learning/hello_world.h"
+#include "learning/Hello World/hello_world.h"
 
 using namespace sf;
 
 int main() {
-    hello_world helloWorld;
-    helloWorld.action();
-
-    return 0;
+    hello_world();
 }

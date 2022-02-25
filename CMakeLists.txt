@@ -4,7 +4,7 @@ project(FirstSFMLGame)
 set(CMAKE_CXX_STANDARD 20)
 set(SFML_STATIC_LIBRARIES TRUE)
 
-add_executable(FirstSFMLGame main.cpp learning/hello_world.cpp learning/hello_world.h)
+add_executable(FirstSFMLGame main.cpp "learning/Hello World/hello_world.cpp" "learning/Hello World/hello_world.h")
 
 set(SFML_DIR "C:/SFML/lib/cmake/SFML")
 
