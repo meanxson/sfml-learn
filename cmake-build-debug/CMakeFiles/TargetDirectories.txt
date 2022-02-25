@@ -1,0 +1,3 @@
+F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/FirstSFMLGame.dir
+F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
