@@ -21,6 +21,11 @@ void window_learn() {
                 case Event::Resized:
                     printf("Width: %i Height %i \n", event.size.width, event.size.height);
                     break;
+
+                case Event::TextEntered:
+                    if (event.text.unicode < 128)
+                        printf("%c", event.text.unicode);
+                    break;
             }
 
             if (event.type == event.Closed) {
