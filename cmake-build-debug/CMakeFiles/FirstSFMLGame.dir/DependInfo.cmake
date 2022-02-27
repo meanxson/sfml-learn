@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/Projects/C++/sfml/sfml-learn/learning/hello_world.cpp" "F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj"
+  "F:/Projects/C++/sfml/sfml-learn/learning/Hello World/hello_world.cpp" "F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj"
+  "F:/Projects/C++/sfml/sfml-learn/learning/Window & Window Events/WindowLearn.cpp" "F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj"
   "F:/Projects/C++/sfml/sfml-learn/main.cpp" "F:/Projects/C++/sfml/sfml-learn/cmake-build-debug/CMakeFiles/FirstSFMLGame.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

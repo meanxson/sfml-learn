@@ -1,8 +1,9 @@
+#include "learning/Window & Window Events/WindowLearn.h"
 #include <SFML/Graphics.hpp>
-#include "learning/Hello World/hello_world.h"
+#include <iostream>
 
 using namespace sf;
 
 int main() {
-    hello_world();
+    window_learn();
 }

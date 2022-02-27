@@ -676,17 +676,19 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-F:/Projects/C++/sfml/sfml-learn/hello_world.cpp
-hello_world.h
-F:/Projects/C++/sfml/sfml-learn/hello_world.h
-
-F:/Projects/C++/sfml/sfml-learn/hello_world.h
+F:/Projects/C++/sfml/sfml-learn/learning/Window & Window Events/WindowLearn.cpp
 SFML/Graphics.hpp
 -
+WindowLearn.h
+F:/Projects/C++/sfml/sfml-learn/learning/Window & Window Events/WindowLearn.h
+
+F:/Projects/C++/sfml/sfml-learn/learning/Window & Window Events/WindowLearn.h
 
 F:/Projects/C++/sfml/sfml-learn/main.cpp
+learning/Window & Window Events/WindowLearn.h
+F:/Projects/C++/sfml/sfml-learn/learning/Window & Window Events/WindowLearn.h
 SFML/Graphics.hpp
 -
-hello_world.h
-F:/Projects/C++/sfml/sfml-learn/hello_world.h
+iostream
+-
 

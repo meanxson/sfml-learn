@@ -8,20 +8,21 @@
 using namespace sf;
 
 void hello_world() {
-    RenderWindow window(VideoMode(500, 500), "SFML works!");
-    CircleShape shape(200.f);
-    shape.setFillColor(Color::Cyan);
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    sf::CircleShape shape(100.f);
+    shape.setFillColor(sf::Color::Green);
 
-    while (window.isOpen()) {
-        Event event{};
-        while (window.pollEvent(event)) {
-            if (event.type == Event::Closed)
+    while (window.isOpen())
+    {
+        sf::Event event{};
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
                 window.close();
         }
+
         window.clear();
         window.draw(shape);
         window.display();
     }
 }
-
-};

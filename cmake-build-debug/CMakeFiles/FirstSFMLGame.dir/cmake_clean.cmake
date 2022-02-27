@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj"
+  "CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj"
+  "CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj"
   "CMakeFiles/FirstSFMLGame.dir/main.cpp.obj"
   "FirstSFMLGame.exe"
   "FirstSFMLGame.exe.manifest"

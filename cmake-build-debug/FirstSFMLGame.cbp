@@ -84,10 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/hello_world.cpp">
+		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/Hello World/hello_world.cpp">
 			<Option target="FirstSFMLGame"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/hello_world.h">
+		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/Hello World/hello_world.h">
+			<Option target="FirstSFMLGame"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/Window &amp; Window Events/WindowLearn.cpp">
+			<Option target="FirstSFMLGame"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/Window &amp; Window Events/WindowLearn.h">
 			<Option target="FirstSFMLGame"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/sfml/sfml-learn/main.cpp">

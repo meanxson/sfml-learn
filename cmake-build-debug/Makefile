@@ -128,29 +128,53 @@ FirstSFMLGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/build
 .PHONY : FirstSFMLGame/fast
 
-learning/hello_world.obj: learning/hello_world.cpp.obj
-.PHONY : learning/hello_world.obj
+learning/Hello_World/hello_world.obj: learning/Hello_World/hello_world.cpp.obj
+.PHONY : learning/Hello_World/hello_world.obj
 
 # target to build an object file
-learning/hello_world.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj
-.PHONY : learning/hello_world.cpp.obj
+learning/Hello_World/hello_world.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj
+.PHONY : learning/Hello_World/hello_world.cpp.obj
 
-learning/hello_world.i: learning/hello_world.cpp.i
-.PHONY : learning/hello_world.i
+learning/Hello_World/hello_world.i: learning/Hello_World/hello_world.cpp.i
+.PHONY : learning/Hello_World/hello_world.i
 
 # target to preprocess a source file
-learning/hello_world.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.i
-.PHONY : learning/hello_world.cpp.i
+learning/Hello_World/hello_world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.i
+.PHONY : learning/Hello_World/hello_world.cpp.i
 
-learning/hello_world.s: learning/hello_world.cpp.s
-.PHONY : learning/hello_world.s
+learning/Hello_World/hello_world.s: learning/Hello_World/hello_world.cpp.s
+.PHONY : learning/Hello_World/hello_world.s
 
 # target to generate assembly for a file
-learning/hello_world.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.s
-.PHONY : learning/hello_world.cpp.s
+learning/Hello_World/hello_world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.s
+.PHONY : learning/Hello_World/hello_world.cpp.s
+
+learning/Window_&_Window_Events/WindowLearn.obj: learning/Window_&_Window_Events/WindowLearn.cpp.obj
+.PHONY : learning/Window_&_Window_Events/WindowLearn.obj
+
+# target to build an object file
+learning/Window_&_Window_Events/WindowLearn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make "CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj"
+.PHONY : learning/Window_&_Window_Events/WindowLearn.cpp.obj
+
+learning/Window_&_Window_Events/WindowLearn.i: learning/Window_&_Window_Events/WindowLearn.cpp.i
+.PHONY : learning/Window_&_Window_Events/WindowLearn.i
+
+# target to preprocess a source file
+learning/Window_&_Window_Events/WindowLearn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make "CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.i"
+.PHONY : learning/Window_&_Window_Events/WindowLearn.cpp.i
+
+learning/Window_&_Window_Events/WindowLearn.s: learning/Window_&_Window_Events/WindowLearn.cpp.s
+.PHONY : learning/Window_&_Window_Events/WindowLearn.s
+
+# target to generate assembly for a file
+learning/Window_&_Window_Events/WindowLearn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make "CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.s"
+.PHONY : learning/Window_&_Window_Events/WindowLearn.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -185,9 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FirstSFMLGame
-	@echo ... learning/hello_world.obj
-	@echo ... learning/hello_world.i
-	@echo ... learning/hello_world.s
+	@echo ... learning/Hello_World/hello_world.obj
+	@echo ... learning/Hello_World/hello_world.i
+	@echo ... learning/Hello_World/hello_world.s
+	@echo ... learning/Window_&_Window_Events/WindowLearn.obj
+	@echo ... learning/Window_&_Window_Events/WindowLearn.i
+	@echo ... learning/Window_&_Window_Events/WindowLearn.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

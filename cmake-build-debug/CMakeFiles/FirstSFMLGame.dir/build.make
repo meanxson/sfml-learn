@@ -79,30 +79,46 @@ CMakeFiles/FirstSFMLGame.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstSFMLGame.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\sfml\sfml-learn\main.cpp -o CMakeFiles\FirstSFMLGame.dir\main.cpp.s
 
-CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj: CMakeFiles/FirstSFMLGame.dir/flags.make
-CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj: CMakeFiles/FirstSFMLGame.dir/includes_CXX.rsp
-CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj: ../learning/hello_world.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\sfml\sfml-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FirstSFMLGame.dir\learning\hello_world.cpp.obj -c F:\Projects\C++\sfml\sfml-learn\learning\hello_world.cpp
+CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj: CMakeFiles/FirstSFMLGame.dir/flags.make
+CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj: CMakeFiles/FirstSFMLGame.dir/includes_CXX.rsp
+CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj: ../learning/Hello\ World/hello_world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\sfml\sfml-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FirstSFMLGame.dir\learning\Hello_World\hello_world.cpp.obj -c "F:\Projects\C++\sfml\sfml-learn\learning\Hello World\hello_world.cpp"
 
-CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Projects\C++\sfml\sfml-learn\learning\hello_world.cpp > CMakeFiles\FirstSFMLGame.dir\learning\hello_world.cpp.i
+CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\Projects\C++\sfml\sfml-learn\learning\Hello World\hello_world.cpp" > CMakeFiles\FirstSFMLGame.dir\learning\Hello_World\hello_world.cpp.i
 
-CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\sfml\sfml-learn\learning\hello_world.cpp -o CMakeFiles\FirstSFMLGame.dir\learning\hello_world.cpp.s
+CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\Projects\C++\sfml\sfml-learn\learning\Hello World\hello_world.cpp" -o CMakeFiles\FirstSFMLGame.dir\learning\Hello_World\hello_world.cpp.s
+
+CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj: CMakeFiles/FirstSFMLGame.dir/flags.make
+CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj: CMakeFiles/FirstSFMLGame.dir/includes_CXX.rsp
+CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj: ../learning/Window\ &\ Window\ Events/WindowLearn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\sfml\sfml-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles\FirstSFMLGame.dir\learning\Window_&_Window_Events\WindowLearn.cpp.obj" -c "F:\Projects\C++\sfml\sfml-learn\learning\Window & Window Events\WindowLearn.cpp"
+
+CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\Projects\C++\sfml\sfml-learn\learning\Window & Window Events\WindowLearn.cpp" > "CMakeFiles\FirstSFMLGame.dir\learning\Window_&_Window_Events\WindowLearn.cpp.i"
+
+CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\Projects\C++\sfml\sfml-learn\learning\Window & Window Events\WindowLearn.cpp" -o "CMakeFiles\FirstSFMLGame.dir\learning\Window_&_Window_Events\WindowLearn.cpp.s"
 
 # Object files for target FirstSFMLGame
 FirstSFMLGame_OBJECTS = \
 "CMakeFiles/FirstSFMLGame.dir/main.cpp.obj" \
-"CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj"
+"CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj" \
+"CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj"
 
 # External object files for target FirstSFMLGame
 FirstSFMLGame_EXTERNAL_OBJECTS =
 
 FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/main.cpp.obj
-FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/learning/hello_world.cpp.obj
+FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.obj
+FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/learning/Window_&_Window_Events/WindowLearn.cpp.obj
 FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/build.make
 FirstSFMLGame.exe: C:/SFML/lib/libsfml-graphics-s-d.a
 FirstSFMLGame.exe: C:/SFML/lib/libsfml-window-s-d.a
@@ -111,7 +127,7 @@ FirstSFMLGame.exe: C:/SFML/lib/libfreetype.a
 FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/linklibs.rsp
 FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/objects1.rsp
 FirstSFMLGame.exe: CMakeFiles/FirstSFMLGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\sfml\sfml-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FirstSFMLGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\sfml\sfml-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable FirstSFMLGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FirstSFMLGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
