@@ -4,7 +4,7 @@ project(FirstSFMLGame)
 set(CMAKE_CXX_STANDARD 20)
 set(SFML_STATIC_LIBRARIES TRUE)
 
-add_executable(FirstSFMLGame main.cpp "learning/Hello World/hello_world.cpp" "learning/Hello World/hello_world.h" "learning/Window & Window Events/WindowLearn.cpp" "learning/Window & Window Events/WindowLearn.h")
+add_executable(FirstSFMLGame main.cpp "learning/Hello World/hello_world.cpp" "learning/Hello World/hello_world.h" "learning/Window & Window Events/WindowLearn.cpp" "learning/Window & Window Events/WindowLearn.h" "learning/KeyboardInput & Movement/PlayerMovement.cpp" "learning/KeyboardInput & Movement/PlayerMovement.h")
 
 set(SFML_DIR "C:/SFML/lib/cmake/SFML")
 

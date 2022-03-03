@@ -152,6 +152,30 @@ learning/Hello_World/hello_world.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make CMakeFiles/FirstSFMLGame.dir/learning/Hello_World/hello_world.cpp.s
 .PHONY : learning/Hello_World/hello_world.cpp.s
 
+learning/KeyboardInput_&_Movement/PlayerMovement.obj: learning/KeyboardInput_&_Movement/PlayerMovement.cpp.obj
+.PHONY : learning/KeyboardInput_&_Movement/PlayerMovement.obj
+
+# target to build an object file
+learning/KeyboardInput_&_Movement/PlayerMovement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make "CMakeFiles/FirstSFMLGame.dir/learning/KeyboardInput_&_Movement/PlayerMovement.cpp.obj"
+.PHONY : learning/KeyboardInput_&_Movement/PlayerMovement.cpp.obj
+
+learning/KeyboardInput_&_Movement/PlayerMovement.i: learning/KeyboardInput_&_Movement/PlayerMovement.cpp.i
+.PHONY : learning/KeyboardInput_&_Movement/PlayerMovement.i
+
+# target to preprocess a source file
+learning/KeyboardInput_&_Movement/PlayerMovement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make "CMakeFiles/FirstSFMLGame.dir/learning/KeyboardInput_&_Movement/PlayerMovement.cpp.i"
+.PHONY : learning/KeyboardInput_&_Movement/PlayerMovement.cpp.i
+
+learning/KeyboardInput_&_Movement/PlayerMovement.s: learning/KeyboardInput_&_Movement/PlayerMovement.cpp.s
+.PHONY : learning/KeyboardInput_&_Movement/PlayerMovement.s
+
+# target to generate assembly for a file
+learning/KeyboardInput_&_Movement/PlayerMovement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstSFMLGame.dir\build.make "CMakeFiles/FirstSFMLGame.dir/learning/KeyboardInput_&_Movement/PlayerMovement.cpp.s"
+.PHONY : learning/KeyboardInput_&_Movement/PlayerMovement.cpp.s
+
 learning/Window_&_Window_Events/WindowLearn.obj: learning/Window_&_Window_Events/WindowLearn.cpp.obj
 .PHONY : learning/Window_&_Window_Events/WindowLearn.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... learning/Hello_World/hello_world.obj
 	@echo ... learning/Hello_World/hello_world.i
 	@echo ... learning/Hello_World/hello_world.s
+	@echo ... learning/KeyboardInput_&_Movement/PlayerMovement.obj
+	@echo ... learning/KeyboardInput_&_Movement/PlayerMovement.i
+	@echo ... learning/KeyboardInput_&_Movement/PlayerMovement.s
 	@echo ... learning/Window_&_Window_Events/WindowLearn.obj
 	@echo ... learning/Window_&_Window_Events/WindowLearn.i
 	@echo ... learning/Window_&_Window_Events/WindowLearn.s

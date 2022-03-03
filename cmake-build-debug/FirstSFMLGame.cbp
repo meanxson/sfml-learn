@@ -90,6 +90,12 @@
 		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/Hello World/hello_world.h">
 			<Option target="FirstSFMLGame"/>
 		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/KeyboardInput &amp; Movement/PlayerMovement.cpp">
+			<Option target="FirstSFMLGame"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/KeyboardInput &amp; Movement/PlayerMovement.h">
+			<Option target="FirstSFMLGame"/>
+		</Unit>
 		<Unit filename="F:/Projects/C++/sfml/sfml-learn/learning/Window &amp; Window Events/WindowLearn.cpp">
 			<Option target="FirstSFMLGame"/>
 		</Unit>
